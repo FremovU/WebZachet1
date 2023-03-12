@@ -14,30 +14,37 @@
   <!-- Custom styles for this template -->
   <link href="css/carousel.css" rel="stylesheet">
 </head>
-<body>
+<body style="padding: 0px!important;">
 
 <header>
-  <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
-    <div class="container-fluid">
-      <a class="navbar-brand" href="#">Главная</a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarCollapse">
-        <ul class="navbar-nav me-auto mb-2 mb-md-0">
+  <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top bg-dark">
+    <!-- Container wrapper -->
+    <div class="container-fluid ">
+      <!-- Collapsible wrapper -->
+      <div
+              class="collapse navbar-collapse justify-content-center"
+              id="navbarCenteredExample"
+      >
+        <!-- Left links -->
+        <ul class="navbar-nav mb-2 mb-lg-0">
           <li class="nav-item">
-            <a class="nav-link" href="#Actor">Исполнители</a>
+            <a class="nav-link active text-white" aria-current="page" href="#">Главная</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#Album">Альбомы</a>
+            <a class="nav-link active text-white" aria-current="page" href="#Actor">Исполнители</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active text-white" aria-current="page" href="#Album">Альбомы</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active text-white" aria-current="page" href="#Club">Клуб</a>
           </li>
         </ul>
-        <form class="d-flex" role="search">
-          <input class="form-control me-2" type="search" placeholder="Поиск" aria-label="Search">
-          <button class="btn btn-outline-success" type="submit">Поиск</button>
-        </form>
+        <!-- Left links -->
       </div>
+      <!-- Collapsible wrapper -->
     </div>
+    <!-- Container wrapper -->
   </nav>
 </header>
 
@@ -110,7 +117,7 @@
         <img src="image/d897d8d622b6a8694862d6826d95d197.jpg" class="rounded-circle" style="width: 140px; height: 140px" alt="">
         <h2 class="fw-normal">Tom Lee</h2>
         <p>Tom Lee – это новый яркий голос в музыкальной индустрии. Его мягкий и мелодичный тембр голоса позволяет передавать душевные переживания и вызывать у слушателя непередаваемые чувства.</p>
-        <p><a class="btn btn-secondary" href="#">Подробнее &raquo;</a></p>
+        <p><a class="btn btn-secondary mt-4" href="#">Подробнее &raquo;</a></p>
       </div><!-- /.col-lg-4 -->
       <div class="col-lg-4">
         <img src="image/3f65191838530f783fa64fa42650f302.jpg" class="rounded-circle" style="width: 140px; height: 140px" alt="">
@@ -202,6 +209,7 @@
       <div class="col-lg-7 text-center text-lg-start">
         <h1 class="display-4 fw-bold lh-1 mb-3">Вступайте в наш клуб!</h1>
         <p class="col-lg-10 fs-4">Вступая в наше сообщество, вы сможете быстрее всех узнавать о новых талантливых исполнителях и альбомах.</p>
+        <a name="Club"></a>
       </div>
       <div class="col-md-10 mx-auto col-lg-5">
         <form class="p-4 p-md-5 border rounded-3 bg-light">
